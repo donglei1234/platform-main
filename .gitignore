@@ -1,0 +1,56 @@
+# GoLand
+.idea/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Service binaries
+**/service
+!**/service/
+!/vendor/**/service
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# macOS
+.DS_Store
+
+# Helm packages
+*.tgz
+
+# Magefile output
+mage_output_file.go
+.test/
+**/magefile
+!**/magefile/
+artifacts
+
+# Unreal
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+.vscode
+.vs
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.orig
+
+# Artifacts made from our docker containers and pipeline
+**/SpaceRouterArtifacts
+
+# Vendored code
+vendor/
