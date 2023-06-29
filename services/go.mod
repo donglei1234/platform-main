@@ -1,4 +1,4 @@
-module github.com/gstones/platform/services
+module github.com/donglei1234/platform-main/services
 
 go 1.20
 
